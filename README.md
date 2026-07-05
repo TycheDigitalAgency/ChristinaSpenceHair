@@ -20,5 +20,26 @@ Since Hostinger doesn't allow exporting/downloading the media library, the image
 3. GitHub will publish it at `https://<username>.github.io/<repo-name>/`.
 4. To use the real domain (`christinaspence.hair`), add a `CNAME` file with that domain in it, and point the domain's DNS at GitHub Pages.
 
-## What's not yet built
-Only the **homepage** is done. The nav links to the other pages (New Client, Services, Contact, My Story, Expectations, Extensions Care, Products, Hair Topics, Home Care Guide) are wired up but those pages don't exist yet — let me know if you want those built out next.
+## What's built
+All 10 pages from the live site's nav are now built, using the real live URLs as filenames so links match what you shared:
+- `index.html` — Home
+- `new-client.html` — New Client
+- `hair-extension-services.html` — Services
+- `contact-christina-spence-hair.html` — Contact
+- `about-christina.html` — My Story
+- `what-to-expect.html` — Expectations
+- `hair-extension-care-guide.html` — Extensions Care
+- `recommended-hair-products.html` — Products
+- `hair-education-and-extension-topics.html` — Hair Topics
+- `home-hair-care-guide-.html` — Home Care Guide
+
+Plus two placeholder legal pages (`privacy-policy.html`, `terms-of-service.html`) so the footer links resolve instead of 404ing — these have placeholder text only, not the real policy language, since that wasn't part of the requested pages.
+
+### Real links wired in
+- **Book Now / Ready to Book** buttons → the real Google Calendar booking link (`calendar.app.google/LgVL6fd3cWTwTrZi7`)
+- **Book Here** (footer) → the real Google Calendar link (`calendar.app.google/Bt7UDayW3P3kuvLn8`)
+- **Get Yours Here** (Products page) → the real affiliate link (`usphair.com/aff/christinashaircare`)
+- **Request an Appointment** → the Contact page
+
+### Not fully built out
+The **Hair Topics** page lists the 4 real blog post titles/excerpts as teaser cards, but the individual article pages themselves aren't built (that's a bigger job — happy to do it if you want). The cards currently don't link anywhere rather than pointing at a broken page.
